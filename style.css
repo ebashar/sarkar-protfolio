@@ -2,3 +2,72 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+h2{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+h4{
+    font-size: 20px;
+}
+.span-color{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    margin-left: 100px;
+}
+.half-width image{
+    width: 70%;
+}
+.banner-top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.banner-dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.conatiner-flexibale{
+    display: flex;
+    margin-bottom: 150px;
+}
+.iamge-size{
+    width: 500px;
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.expeience-container{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.expeirence-iteam{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;;
+}
+#experinee-fontsize{
+    margin-bottom: 70px;
+}
+.full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato) 
+}
+.baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan)
+}
+footer{
+    text-align: center;
+}
